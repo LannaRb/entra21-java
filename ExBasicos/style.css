@@ -1,0 +1,77 @@
+body{
+    background-color: pink;
+}
+#texto{
+    font-family: "Long Cang", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: xx-large;
+    color: palevioletred;
+    text-align: center
+}
+
+#texto{
+    border: 2px solid palevioletred;
+    border-radius: 20px;
+    margin: 30px;
+    box-shadow:  10px 10px 10px palevioletred;
+}
+
+
+.b1{
+    text-align: center;
+}
+#botao{
+    background-color: palevioletred;
+    color: azure;
+    border-radius: 20px;
+    border-color: aliceblue;
+}
+#botao:hover{
+    background-color: hotpink;
+}
+
+.texto2{
+    font-family: "Long Cang", serif;
+    font-size: xx-large;
+    text-align: center;
+    margin: 30px;
+    border: 2px solid palevioletred;
+    padding: 50px;
+    color: palevioletred;
+    border-radius: 20px;
+    box-shadow:  10px 10px 10px palevioletred;
+}
+
+ img{
+    border-radius: 20px;
+    border: 2px solid palevioletred;
+    margin: 20px;
+    box-shadow:  10px 10px 10px palevioletred;
+ }
+
+ .img1{
+    text-align: center;
+    margin: auto;
+    box-shadow: 10px;
+ }
+
+#user{
+    background-color: palevioletred;
+    color: azure;
+    border-radius: 20px;
+    border-color: aliceblue;
+    
+}
+
+#menus{
+    background-color: palevioletred;
+    color: azure;
+    border-radius: 20px;
+    border-color: aliceblue;
+
+}
+
+body{
+    align-items: center;
+}

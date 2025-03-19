@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        ul{
+            background-color: palevioletred;
+            padding: 5px;
+            border-radius: 10px;
+            overflow: hidden;
+            align-items: center;
+        }
+
+        li> a{
+            text-decoration: none;
+            margin: 10px;
+            background-color: papayawhip;
+            color: palevioletred;
+            border-top-left-radius: 10px;
+            border-bottom-right-radius: 10px;
+        }
+        li>a:hover{
+            background-color: peachpuff;
+            color: palevioletred;
+            border-top-right-radius: 10px;
+            border-top-left-radius: 0px;
+            border-bottom-left-radius: 10px;
+            border-bottom-right-radius: 0px;
+        }
+        .navbar{
+            display: flex;
+            justify-content: space-between;
+            background-color: pink;
+            align-items: center;
+        }
+        .nav-links{
+            list-style: none;
+            display: flex;
+        }
+        .logo{
+            align-items: center;
+        }
+        .adm{
+            margin: 10px;
+            align-items: center;
+        }
+
+        
+        #login{
+            margin-right: 10px;
+            border-radius: 20px;
+            background-color: palegoldenrod;
+            border-color: white;
+        }
+        img{
+            border-radius: 100%;
+        }
+
+        #text{
+            background-color: papayawhip;
+            border-radius: 20px;
+            border-color: white;
+        }
+
+        #submit{
+            background-color: papayawhip;
+            border-radius: 20px;
+            border-color: white;
+        }
+
+        .adm{
+            display: flex;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo">
+             <img src="logo\cat.gif" height="80" width="120">
+        </div>
+<ul class="nav-links">
+    <li><a href="#"> Home </a></li>
+    <li><a href="#"> Serviços </a></li>
+    <li><a href="#"> Contato </a></li>
+    <li><a href="#"> Sobre </a></li>
+</ul>
+
+<div class="adm"> 
+    
+    <div class="botao">
+        <button id="login"> Login </button>
+        </div>
+
+    <div class="pesquisa">
+        <input id="text" placeholder="Search.." name="search">
+                <button id="submit">Submit</button>
+        </div>
+
+</div>
+</div>
+
+    
+
+    
+    
+
+
+    
+</body>
+</html>

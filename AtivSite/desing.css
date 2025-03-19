@@ -1,0 +1,134 @@
+body > .nav {
+    background-color: white;
+    color: black;
+    padding: 10px;
+    margin: 0;
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+body{
+    background-color: white;
+    color: black; 
+    font-family: Arial, sans-serif;
+    font-family: "Italiana", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+button{
+    background-color: black;
+    border-radius: 20px;
+    border: 0px;
+    padding: 10px;
+    margin: 10px;
+    color: white;
+}
+button >a{
+    text-decoration: none;
+    color: white;
+    font-family: "Italiana", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.botao :hover{
+    background-color: #ff3131;
+    transition: 0.3s ease;
+}
+
+footer {
+    background-image: url(imagens/footermm.png);
+    
+    color: black;
+    padding: 20px;
+    margin: 0px;
+    text-align: center;
+}
+.textsobre{
+    text-align: left;
+    display: flex;
+    margin: 20px;
+}
+.textosobre2 {
+    margin: 20px;
+    margin-bottom: 40px;
+}
+.nav >h1{
+    color:#ff3131;
+}
+.img-album{
+    
+    display: inline-block;
+    text-align: center;
+    margin: 60px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.descricao{
+    display: none;
+    position: absolute;
+    background-color:#ff3131;
+    min-width: 50px;
+    box-shadow: 0px 8px px rgba(0, 0, 0, 0.2);
+    
+    z-index: 1;
+}
+.img1:hover .descricao{
+    display: block;
+}
+.img2:hover .descricao{
+    display: block;
+}
+.img3:hover .descricao{
+    display: block;
+}
+.img4:hover .descricao{
+    display: block;
+}
+.img5:hover .descricao{
+    display: block;
+}
+.img6:hover .descricao{
+    display: block;
+}
+.img7:hover .descricao{
+    display: block;
+}
+.img8:hover .descricao{
+    display: block;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+table, th, td {
+    border: 1px solid black;
+    
+}
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+input{
+    border-radius: 20px;
+}
+label{
+    font-weight: 800;
+}
+.tabela-cadastro{
+    text-align: center;
+    padding: 20PX;
+}
+#preco{
+    color: #ff3131;
+}
+#nome{
+    color: #ff3131;
+}
+.tabela-cadastro>#botaoC{
+    font-family: "Italiana", sans-serif;
+    font-weight: 800;
+}
+#homeT{
+    text-align: center;
+}

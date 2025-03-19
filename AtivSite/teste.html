@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .container {
+        position: relative;
+        display: inline-block; /* Faz com que a imagem e a descrição fiquem alinhadas */
+    }
+
+    .imagem {
+        width: 300px; /* Define o tamanho da imagem */
+        height: 200px; /* Define o tamanho da imagem */
+        object-fit: cover; /* Faz a imagem cobrir a área sem distorção */
+        transition: transform 0.3s ease; /* Adiciona um efeito suave de zoom */
+        
+    }
+
+    .descricao {
+        position: absolute;
+        bottom: 10px;
+        left: 10px;
+        background-color: rgba(0, 0, 0, 0.7); /* Fundo escuro para a descrição */
+        color: white;
+        padding: 10px;
+        font-size: 16px;
+        opacity: 0; /* Inicialmente, a descrição está invisível */
+        transition: opacity 0.3s ease; /* Transição suave para a descrição aparecer */
+    }
+
+    .container:hover .imagem {
+        transform: scale(1.2); /* Aumenta a imagem 20% quando o mouse passa sobre ela */
+    }
+
+    .container:hover .descricao {
+        opacity: 1; /* Torna a descrição visível quando o mouse passa sobre a imagem */
+    }
+</style>
+</head>
+<body>
+<div class="container">
+    <img src="imagens\fundochi.webp" alt="Imagem Exemplo" class="imagem">
+    <div class="descricao">Aqui está a descrição da imagem!</div>
+</div>
+</body>
+</html>
